@@ -14,7 +14,7 @@ Once installed, install requests using `pip install requests` in terminal/PowerS
 Open the Scripts window (Tools > Scripts). Click on the Python Settings tab and enter the installation path for Python. On Windows, the default install path for Python 3.6 is `C:/Users/[Username]/AppData/Local/Programs/Python/Python36`.
 
 ### 3. Set up plugin
-The plugin should be in its own folder (containing `player_info.py` and the `img` folder). In the Scripts tab, add `player_info.py` as a plugin.
+The plugin should be in its own folder (containing `player_info.py` and the `img` folder). In the Scripts tab, add `player_info.py` as a script.
 
 ### 4. Configuration
 * **osu! API key** - Enter your osu! api key here (https://osu.ppy.sh/p/api/)
