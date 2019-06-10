@@ -4,6 +4,7 @@ import requests
 url = ""
 api = ""
 user = ""
+name_source = ""
 rank = ""
 avatar = ""
 country = ""
@@ -16,7 +17,7 @@ def update():
     global url
     global api
     global user
-    global name
+    global name_source
     global rank
     global avatar
     global country
