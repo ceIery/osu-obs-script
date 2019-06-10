@@ -4,7 +4,6 @@ import requests
 url = ""
 api = ""
 user = ""
-name = ""
 rank = ""
 avatar = ""
 country = ""
@@ -40,7 +39,7 @@ def update():
         print(err)
 
     try:
-        update_str_source(name, username)
+        update_str_source(name_source, username)
         update_str_source(rank, pp_rank)
         update_img_source(country, path + 'img/flags/' + country_id + ".png")
         update_img_source(avatar, path + 'img/avatars/' + user_id + ".jpg")
@@ -87,7 +86,7 @@ def script_update(settings):
     global url
     global api
     global user
-    global name
+    global name_source
     global rank
     global avatar
     global country
@@ -95,7 +94,7 @@ def script_update(settings):
     url = obs.obs_data_get_string(settings, "url")
     api = obs.obs_data_get_string(settings, "api")
     user = obs.obs_data_get_string(settings, "user")
-    name = obs.obs_data_get_string(settings, "name")
+    name_source = obs.obs_data_get_string(settings, "name")
     rank = obs.obs_data_get_string(settings, "rank")
     avatar = obs.obs_data_get_string(settings, "avatar")
     country = obs.obs_data_get_string(settings, "country")
