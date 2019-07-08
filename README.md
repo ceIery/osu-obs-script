@@ -3,6 +3,9 @@ OBS script that gets osu! player info and displays it. Designed for tourney stre
 
 This script can display player name, rank, country, and avatar.
 
+## Known Issues
+If you keep getting a `no such file or directory` error, make a new folder in the `img` folder called `avatars`
+
 ## Installation
 
 ### 1. Install Python 3.6.x and prerequisites
