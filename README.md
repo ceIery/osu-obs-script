@@ -1,15 +1,16 @@
 # osu-obs-script
 OBS script that gets osu! player info and displays it. Designed for tourney streaming.
 
-This script can display player name, rank, country, and avatar.
+Displays player name, rank, country, and avatar.
 
 ## Known Issues
 If you keep getting a `no such file or directory` error, make a new folder in the `img` folder called `avatars`
 
 ## Installation
+Tested only on Windows, but should work across Mac/Linux
 
 ### 1. Install Python 3.6.x and prerequisites
-OBS **only** supports Python 3.6.x for scripts. [Click here to download Python 3.6.8.](https://www.python.org/downloads/release/python-368/) Adding Python to PATH is recommended.
+**OBS only supports Python 3.6.x for scripts.** [Script tested on Python 3.6.8.](https://www.python.org/downloads/release/python-368/) Adding Python to PATH is recommended.
 
 Once installed, install requests using `pip install requests` in terminal/PowerShell.
 
