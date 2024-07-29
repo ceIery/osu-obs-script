@@ -1,3 +1,5 @@
+# Please use [tosu](https://github.com/KotRikD/tosu) instead.
+
 # osu-obs-script
 OBS script that gets osu! player info and displays it. Designed for tourney streaming.
 
